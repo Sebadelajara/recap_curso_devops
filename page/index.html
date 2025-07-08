@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps - Cultura de Desarrollo y Operaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo"><i class="fas fa-cogs"></i> DevOps</h1>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#que-es">¿Qué es?</a></li>
+                    <li><a href="#principios">Principios</a></li>
+                    <li><a href="#herramientas">Herramientas</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>DevOps</h1>
+                <p class="hero-subtitle">Transformando el desarrollo de software</p>
+                <p class="hero-description">
+                    DevOps es una cultura, metodología y conjunto de prácticas que combinan 
+                    el desarrollo de software (Dev) y las operaciones de TI (Ops) para 
+                    acelerar el ciclo de vida del desarrollo de aplicaciones.
+                </p>
+                <button class="cta-button">Conoce más</button>
+            </div>
+            <div class="hero-visual">
+                <div class="devops-cycle">
+                    <div class="cycle-item">Plan</div>
+                    <div class="cycle-item">Code</div>
+                    <div class="cycle-item">Build</div>
+                    <div class="cycle-item">Test</div>
+                    <div class="cycle-item">Release</div>
+                    <div class="cycle-item">Deploy</div>
+                    <div class="cycle-item">Operate</div>
+                    <div class="cycle-item">Monitor</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Qué es DevOps? -->
+        <section id="que-es" class="section">
+            <div class="container">
+                <h2 class="section-title">¿Qué es DevOps?</h2>
+                <div class="content-grid">
+                    <div class="content-card">
+                        <i class="fas fa-users icon"></i>
+                        <h3>Cultura</h3>
+                        <p>DevOps es principalmente una cultura que fomenta la colaboración entre equipos de desarrollo y operaciones.</p>
+                    </div>
+                    <div class="content-card">
+                        <i class="fas fa-tools icon"></i>
+                        <h3>Metodología</h3>
+                        <p>Un conjunto de prácticas y metodologías que automatizan los procesos entre desarrollo y operaciones.</p>
+                    </div>
+                    <div class="content-card">
+                        <i class="fas fa-rocket icon"></i>
+                        <h3>Agilidad</h3>
+                        <p>Permite entregar aplicaciones y servicios a alta velocidad, mejorando y evolucionando productos más rápidamente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Principios de DevOps -->
+        <section id="principios" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Principios Fundamentales</h2>
+                <div class="principles-grid">
+                    <div class="principle-item">
+                        <div class="principle-number">1</div>
+                        <h4>Colaboración</h4>
+                        <p>Romper los silos entre equipos y fomentar la comunicación constante.</p>
+                    </div>
+                    <div class="principle-item">
+                        <div class="principle-number">2</div>
+                        <h4>Automatización</h4>
+                        <p>Automatizar procesos repetitivos para reducir errores y aumentar eficiencia.</p>
+                    </div>
+                    <div class="principle-item">
+                        <div class="principle-number">3</div>
+                        <h4>Integración Continua</h4>
+                        <p>Integrar cambios de código frecuentemente en el repositorio principal.</p>
+                    </div>
+                    <div class="principle-item">
+                        <div class="principle-number">4</div>
+                        <h4>Entrega Continua</h4>
+                        <p>Mantener el código siempre en un estado desplegable y listo para producción.</p>
+                    </div>
+                    <div class="principle-item">
+                        <div class="principle-number">5</div>
+                        <h4>Monitoreo</h4>
+                        <p>Observabilidad completa de aplicaciones y infraestructura en tiempo real.</p>
+                    </div>
+                    <div class="principle-item">
+                        <div class="principle-number">6</div>
+                        <h4>Feedback</h4>
+                        <p>Bucles de retroalimentación rápidos para mejora continua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Herramientas -->
+        <section id="herramientas" class="section">
+            <div class="container">
+                <h2 class="section-title">Herramientas Populares</h2>
+                <div class="tools-categories">
+                    <div class="tool-category">
+                        <h3><i class="fas fa-code-branch"></i> Control de Versiones</h3>
+                        <div class="tools-list">
+                            <span class="tool-tag">Git</span>
+                            <span class="tool-tag">GitHub</span>
+                            <span class="tool-tag">GitLab</span>
+                            <span class="tool-tag">Bitbucket</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h3><i class="fas fa-cog"></i> CI/CD</h3>
+                        <div class="tools-list">
+                            <span class="tool-tag">Jenkins</span>
+                            <span class="tool-tag">GitHub Actions</span>
+                            <span class="tool-tag">GitLab CI</span>
+                            <span class="tool-tag">Azure DevOps</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h3><i class="fas fa-cube"></i> Containerización</h3>
+                        <div class="tools-list">
+                            <span class="tool-tag">Docker</span>
+                            <span class="tool-tag">Kubernetes</span>
+                            <span class="tool-tag">Podman</span>
+                            <span class="tool-tag">OpenShift</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h3><i class="fas fa-cloud"></i> Infraestructura</h3>
+                        <div class="tools-list">
+                            <span class="tool-tag">Terraform</span>
+                            <span class="tool-tag">Ansible</span>
+                            <span class="tool-tag">AWS</span>
+                            <span class="tool-tag">Azure</span>
+                        </div>
+                    </div>
+                    <div class="tool-category">
+                        <h3><i class="fas fa-chart-line"></i> Monitoreo</h3>
+                        <div class="tools-list">
+                            <span class="tool-tag">Prometheus</span>
+                            <span class="tool-tag">Grafana</span>
+                            <span class="tool-tag">ELK Stack</span>
+                            <span class="tool-tag">Datadog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beneficios -->
+        <section id="beneficios" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Beneficios de DevOps</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Velocidad</h3>
+                        <p>Entrega más rápida de funcionalidades, correcciones de errores y nuevas características al mercado.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Confiabilidad</h3>
+                        <p>Mayor calidad y estabilidad de las aplicaciones mediante pruebas continuas y monitoreo.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </div>
+                        <h3>Escalabilidad</h3>
+                        <p>Gestión eficiente de infraestructura y procesos de desarrollo a gran escala.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Colaboración</h3>
+                        <p>Mejor comunicación y colaboración entre equipos de desarrollo y operaciones.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Seguridad</h3>
+                        <p>Integración de prácticas de seguridad en todo el ciclo de vida del desarrollo.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <h3>Eficiencia</h3>
+                        <p>Reducción de costos operativos y mejor utilización de recursos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-cogs"></i> DevOps</h3>
+                    <p>Transformando la forma en que desarrollamos y operamos software.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#que-es">¿Qué es?</a></li>
+                        <li><a href="#principios">Principios</a></li>
+                        <li><a href="#herramientas">Herramientas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Tutoriales</a></li>
+                        <li><a href="#">Comunidad</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DevOps Info. Proyecto educativo sobre DevOps.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
