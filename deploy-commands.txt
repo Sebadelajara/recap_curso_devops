@@ -1,0 +1,18 @@
+# Comandos para subir tu proyecto a GitHub Pages
+
+# 1. Inicializar repositorio Git (si no está inicializado)
+git init
+
+# 2. Agregar todos los archivos
+git add .
+
+# 3. Hacer commit inicial
+git commit -m "Initial commit: DevOps information website"
+
+# 4. Conectar con repositorio remoto (reemplaza TU_USUARIO con tu nombre de usuario)
+git remote add origin https://github.com/TU_USUARIO/devops-info-site.git
+
+# 5. Subir archivos
+git push -u origin main
+
+# ¡Listo! Ahora activa GitHub Pages en la configuración del repositorio
